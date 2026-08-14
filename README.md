@@ -92,30 +92,28 @@ with 3D Gaussian Splatting, then evaluating robot navigation and manipulation in
 
 ## Publications
 
-### GaussianTalker: Real-Time High-Fidelity Talking Head Synthesis with Audio-Driven 3D Gaussian Splatting
+### GaussianTalker: Real-Time High-Fidelity Talking Head Synthesis with Audio-Driven 3D Gaussian Splatting *(ACM Multimedia 2024)*
 _**Kyusun Cho**, Joungbin Lee, Heeji Yoon, Yeobin Hong, Jaehoon Ko, Sangjun Ahn, Seungryong Kim_
-*ACM Multimedia 2024* · `3D` `gaussian-splatting` `talking-head` `real-time`
-Encodes 3D Gaussian attributes into a shared implicit feature that speech audio can steer,
-rendering pose-controllable talking heads at up to 120 FPS.
+
 [![Project](https://img.shields.io/badge/Project-Page-0a7bbb)](https://cvlab-kaist.github.io/GaussianTalker/)
 [![arXiv](https://img.shields.io/badge/arXiv-2404.16012-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.16012)
 [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/cvlab-kaist/GaussianTalker)
 
-### Talk3D: High-Fidelity Talking Portrait Synthesis via Personalized 3D Generative Prior
+### Talk3D: High-Fidelity Talking Portrait Synthesis via Personalized 3D Generative Prior *(ICCV 2025 Workshop)*
 _Jaehoon Ko, **Kyusun Cho**, Joungbin Lee, Heeji Yoon, Sangmin Lee, Sangjun Ahn, Seungryong Kim_
-*ICCV 2025 Workshop* · `3D` `talking-portrait` `NeRF` `generative-prior`
+
 [![Project](https://img.shields.io/badge/Project-Page-0a7bbb)](https://cvlab-kaist.github.io/Talk3D/)
 [![arXiv](https://img.shields.io/badge/arXiv-2403.20153-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.20153)
 [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/cvlab-kaist/Talk3D)
 
-### 3D GAN Inversion with Pose Optimization
-_Jaehoon Ko\*, **Kyusun Cho**\*, Daewon Choi, Kwangrok Ryoo, Seungryong Kim_ · \*equal contribution
-*WACV 2023* · `3D` `GAN-inversion` `NeRF` `editing`
+### 3D GAN Inversion with Pose Optimization *(WACV 2023)*
+_Jaehoon Ko, **Kyusun Cho**, Daewon Choi, Kwangrok Ryoo, Seungryong Kim_  
+
 [![Project](https://img.shields.io/badge/Project-Page-0a7bbb)](https://3dgan-inversion.github.io/)
 [![arXiv](https://img.shields.io/badge/arXiv-2210.07301-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2210.07301)
 [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/cvlab-kaist/3DGAN-Inversion)
 
-### AE-NeRF: Auto-Encoding Neural Radiance Fields for 3D-Aware Object Manipulation
+### AE-NeRF: Auto-Encoding Neural Radiance Fields for 3D-Aware Object Manipulation *(arxiv 2022)*
 _Mira Kim, Jaehoon Ko, **Kyusun Cho**, Junmyeong Choi, Daewon Choi, Seungryong Kim_
-*arXiv 2022* · `3D` `NeRF` `auto-encoder` `disentanglement`
+
 [![arXiv](https://img.shields.io/badge/arXiv-2204.13426-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2204.13426)
