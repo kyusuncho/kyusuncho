@@ -19,19 +19,29 @@ how an idea becomes something useful, and what to improve next. I write through 
 
 [![My Skills](https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,opencv&theme=dark)](https://skillicons.dev)
 
-`Lightning` · `Hydra` · `Weights & Biases` · `ONNX` · `TFLite / LiteRT` · `Ray Data` · `DVC`
+`Lightning` · `Hydra` · `Weights & Biases` · `ONNX` · `TFLite / LiteRT`
 
 **LLM & Agents**
 
-[![My Skills](https://skillicons.dev/icons?i=fastapi,docker,postgres&theme=dark)](https://skillicons.dev)
+`LangGraph` · `LangChain` · `vLLM` · `RAGAS` · `Langfuse` · `Arize Phoenix`
 
-`LangGraph` · `LangChain` · `vLLM` · `Triton` · `Milvus` · `Neo4j` · `RAGAS` · `Langfuse` · `NeMo Guardrails` · `Arize Phoenix` · `Dagster`
+**Backend & Data**
+
+[![My Skills](https://skillicons.dev/icons?i=fastapi,django,spring,postgres,supabase,redis,rabbitmq&theme=dark)](https://skillicons.dev)
+
+`DuckDB` · `Milvus` · `Neo4j`
+
+**MLOps**
+
+[![My Skills](https://skillicons.dev/icons?i=docker&theme=dark)](https://skillicons.dev)
+
+`Docker Compose` · `Airflow` · `MLflow` · `Dagster` · `Ray Data` · `DVC` · `Triton`
 
 **Infra & Observability**
 
 [![My Skills](https://skillicons.dev/icons?i=aws,linux,grafana,prometheus,git,github&theme=dark)](https://skillicons.dev)
 
-**On-device**
+**Mobile**
 
 [![My Skills](https://skillicons.dev/icons?i=kotlin,androidstudio&theme=dark)](https://skillicons.dev)
 
@@ -42,16 +52,16 @@ how an idea becomes something useful, and what to improve next. I write through 
 **AI Engineer** · [PlantyNet](https://kyusuncho.github.io/blog/work/plantynet/) — Seongnam, South Korea
 `2025.02 – present`
 
-- **On-device deepfake detection** shipped to Android via TFLite. Trained on a 10M+ face image
-  corpus; lifted test AUC `64.1% → 85.6%` and Korean-subset accuracy `54.7% → 88.4%`.
-- **Research platform rebuild** on Ray, DVC, Lightning, Hydra, and W&B — cut experiment turnaround
-  from ~3 days to 8 hours and GPU usage by 41%.
+- **On-device deepfake detection** shipped to Android via TFLite — trained on a large-scale corpus
+  of real and synthetic faces, with a Korean-face subset added to close a domain gap.
+- **Research platform rebuild** on Ray, DVC, Lightning, Hydra, and W&B, replacing a script-driven
+  workflow and cutting both experiment turnaround and GPU usage.
 - **Multi-agent magazine RAG chatbot** — a LangGraph routing orchestrator delegating to article-QA
-  and recommendation agents over hybrid Milvus retrieval (bge-m3 dense + Korean BM25).
-  Routing accuracy +22%; layered RAGAS evaluation took version QA from 2–3 days to 30 minutes.
+  and recommendation agents over hybrid Milvus retrieval (bge-m3 dense + Korean BM25), with layered
+  RAGAS evaluation separating routing, retrieval, context, and generation quality.
 - **Agentic content pipeline** for OCR correction, summarization, translation, and web-view
-  generation. An ExpeL-style experience memory pushed processing success `78.2% → 94.3%`, while
-  knowledge distillation cut LLM calls per issue by 49.9% and runtime `5m41s → 1m25s` (4.6× throughput).
+  generation. An ExpeL-style experience memory raised processing success rates, and knowledge
+  distillation into a lightweight classifier cut LLM inference cost.
 - **Knowledge-graph recommender** (in progress) — LLM facet tagging into a Neo4j content graph,
   with Personalized PageRank candidate generation and contextual-bandit exploration.
 
