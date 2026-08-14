@@ -4,8 +4,8 @@
 M.S. in Computer Science (AI), Korea University · Advised by Prof. Seungryong Kim.
 
 I work across two halves of the same problem: the research that makes a model good, and the systems
-that make it useful. Lately that means shipping vision models into Android apps, orchestrating
-multi-agent RAG over a 1,400-magazine archive, and rebuilding the pipelines underneath both.
+that make it useful. Lately that means training and shipping on-device vision AI models, orchestrating
+multi-agent RAG agents over a 1,400-magazine archive, and building MLOps pipelines underneath both.
 
 As an engineer I keep returning to the same three questions: why a system behaves the way it does,
 how an idea becomes something useful, and what to improve next. I write through those on my
@@ -49,9 +49,10 @@ with 3D Gaussian Splatting, then evaluating robot navigation and manipulation in
 **Graduate Researcher** · Korea University Computer Vision Lab — Seoul, South Korea
 `2022.03 – 2025.02`
 
-Real-time audio-driven 3D talking heads, 3D pose-conditioned diffusion for person re-identification,
-and pose-estimation/sensor-fusion indicators for dementia screening. TA for Samsung Electronics
-internal courses on diffusion models and 3D reconstruction.
+- Real-time audio-driven 3D talking heads
+- 3D pose-conditioned diffusion for person re-identification
+- pose-estimation/sensor-fusion indicators for dementia screening. 
+- TA for Samsung Electronics - internal courses on diffusion models and 3D reconstruction.
 
 ---
 
@@ -92,40 +93,29 @@ internal courses on diffusion models and 3D reconstruction.
 ## Publications
 
 ### GaussianTalker: Real-Time High-Fidelity Talking Head Synthesis with Audio-Driven 3D Gaussian Splatting
-*ACM Multimedia 2024* · first author · `3D` `gaussian-splatting` `talking-head` `real-time`
+_**Kyusun Cho**, Joungbin Lee, Heeji Yoon, Yeobin Hong, Jaehoon Ko, Sangjun Ahn, Seungryong Kim_
+*ACM Multimedia 2024* · `3D` `gaussian-splatting` `talking-head` `real-time`
 Encodes 3D Gaussian attributes into a shared implicit feature that speech audio can steer,
 rendering pose-controllable talking heads at up to 120 FPS.
-[Project](https://cvlab-kaist.github.io/GaussianTalker/) · [Paper](https://arxiv.org/abs/2404.16012v2) · [Code](https://github.com/cvlab-kaist/GaussianTalker) · [Notes](https://kyusuncho.github.io/blog/publication/gaussiantalker/)
+[![Project](https://img.shields.io/badge/Project-Page-0a7bbb)](https://cvlab-kaist.github.io/GaussianTalker/)
+[![arXiv](https://img.shields.io/badge/arXiv-2404.16012-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.16012)
+[![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/cvlab-kaist/GaussianTalker)
 
 ### Talk3D: High-Fidelity Talking Portrait Synthesis via Personalized 3D Generative Prior
-*ICCV 2025 Workshop* · first author · `3D` `talking-portrait` `NeRF` `generative-prior`
-[Project](https://cvlab-kaist.github.io/Talk3D/) · [Paper](https://arxiv.org/abs/2403.20153) · [Code](https://github.com/cvlab-kaist/Talk3D) · [Notes](https://kyusuncho.github.io/blog/publication/talk3d/)
+_Jaehoon Ko, **Kyusun Cho**, Joungbin Lee, Heeji Yoon, Sangmin Lee, Sangjun Ahn, Seungryong Kim_
+*ICCV 2025 Workshop* · `3D` `talking-portrait` `NeRF` `generative-prior`
+[![Project](https://img.shields.io/badge/Project-Page-0a7bbb)](https://cvlab-kaist.github.io/Talk3D/)
+[![arXiv](https://img.shields.io/badge/arXiv-2403.20153-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.20153)
+[![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/cvlab-kaist/Talk3D)
 
 ### 3D GAN Inversion with Pose Optimization
-*WACV 2023* · first author · `3D` `GAN-inversion` `NeRF` `editing`
-[Project](https://3dgan-inversion.github.io/) · [Paper](https://arxiv.org/abs/2210.07301) · [Code](https://github.com/cvlab-kaist/3DGAN-Inversion) · [Notes](https://kyusuncho.github.io/blog/publication/3dgan-inversion/)
+_Jaehoon Ko\*, **Kyusun Cho**\*, Daewon Choi, Kwangrok Ryoo, Seungryong Kim_ · \*equal contribution
+*WACV 2023* · `3D` `GAN-inversion` `NeRF` `editing`
+[![Project](https://img.shields.io/badge/Project-Page-0a7bbb)](https://3dgan-inversion.github.io/)
+[![arXiv](https://img.shields.io/badge/arXiv-2210.07301-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2210.07301)
+[![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/cvlab-kaist/3DGAN-Inversion)
 
 ### AE-NeRF: Auto-Encoding Neural Radiance Fields for 3D-Aware Object Manipulation
+_Mira Kim, Jaehoon Ko, **Kyusun Cho**, Junmyeong Choi, Daewon Choi, Seungryong Kim_
 *arXiv 2022* · `3D` `NeRF` `auto-encoder` `disentanglement`
-[Paper](https://arxiv.org/abs/2204.13426) · [Notes](https://kyusuncho.github.io/blog/publication/ae-nerf/)
-
----
-
-## GitHub
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=kyusuncho&show_icons=true&hide_border=true&include_all_commits=true&theme=github_dark">
-  <img height="165" alt="Kyusun Cho's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=kyusuncho&show_icons=true&hide_border=true&include_all_commits=true&theme=default">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=kyusuncho&layout=compact&hide_border=true&theme=github_dark">
-  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kyusuncho&layout=compact&hide_border=true&theme=default">
-</picture>
-
-<sub>Cards by [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) · icons by [skill-icons](https://github.com/tandpfun/skill-icons)</sub>
-
----
-
-## Elsewhere
-
-[Website & blog](https://kyusuncho.github.io) · [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) · kyustorm7@gmail.com
+[![arXiv](https://img.shields.io/badge/arXiv-2204.13426-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2204.13426)
