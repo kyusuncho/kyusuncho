@@ -13,37 +13,12 @@ how an idea becomes something useful, and what to improve next. I write through 
 
 ---
 
-## Tech Stack
+## Education
 
-**ML & Research**
+**M.S. in Computer Science (Artificial Intelligence)** · Korea University `2022.03 – 2025.02`
+Advisor: [Seungryong Kim](https://cvlab.korea.ac.kr)
 
-[![My Skills](https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,opencv&theme=dark)](https://skillicons.dev)
-
-`Lightning` · `Hydra` · `Weights & Biases` · `ONNX` · `TFLite / LiteRT`
-
-**LLM & Agents**
-
-`LangGraph` · `LangChain` · `vLLM` · `RAGAS` · `Langfuse` · `Arize Phoenix`
-
-**Backend & Data**
-
-[![My Skills](https://skillicons.dev/icons?i=fastapi,django,spring,postgres,supabase,redis,rabbitmq&theme=dark)](https://skillicons.dev)
-
-`DuckDB` · `Milvus` · `Neo4j`
-
-**MLOps**
-
-[![My Skills](https://skillicons.dev/icons?i=docker&theme=dark)](https://skillicons.dev)
-
-`Docker Compose` · `Airflow` · `MLflow` · `Dagster` · `Ray Data` · `DVC` · `Triton`
-
-**Infra & Observability**
-
-[![My Skills](https://skillicons.dev/icons?i=aws,linux,grafana,prometheus,git,github&theme=dark)](https://skillicons.dev)
-
-**Mobile**
-
-[![My Skills](https://skillicons.dev/icons?i=kotlin,androidstudio&theme=dark)](https://skillicons.dev)
+**B.S. in Statistics** · Korea University `2018.03 – 2022.02`
 
 ---
 
@@ -78,12 +53,39 @@ Real-time audio-driven 3D talking heads, 3D pose-conditioned diffusion for perso
 and pose-estimation/sensor-fusion indicators for dementia screening. TA for Samsung Electronics
 internal courses on diffusion models and 3D reconstruction.
 
-## Education
+---
 
-**M.S. in Computer Science (Artificial Intelligence)** · Korea University `2022.03 – 2025.02`
-Advisor: [Seungryong Kim](https://cvlab.korea.ac.kr)
+## Tech Stack
 
-**B.S. in Statistics** · Korea University `2018.03 – 2022.02`
+**ML & Research**
+
+[![My Skills](https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,opencv&theme=dark)](https://skillicons.dev)
+
+`Lightning` · `Hydra` · `Weights & Biases` · `ONNX` · `TFLite / LiteRT`
+
+**LLM & Agents**
+
+`LangGraph` · `LangChain` · `vLLM` · `RAGAS` · `Langfuse` · `Arize Phoenix`
+
+**Backend & Data**
+
+[![My Skills](https://skillicons.dev/icons?i=fastapi,django,spring,postgres,supabase,redis,rabbitmq&theme=dark)](https://skillicons.dev)
+
+`DuckDB` · `Milvus` · `Neo4j`
+
+**MLOps**
+
+[![My Skills](https://skillicons.dev/icons?i=docker&theme=dark)](https://skillicons.dev)
+
+`Docker Compose` · `Airflow` · `MLflow` · `Dagster` · `Ray Data` · `DVC` · `Triton`
+
+**Infra & Observability**
+
+[![My Skills](https://skillicons.dev/icons?i=aws,linux,grafana,prometheus,git,github&theme=dark)](https://skillicons.dev)
+
+**Mobile**
+
+[![My Skills](https://skillicons.dev/icons?i=kotlin,androidstudio&theme=dark)](https://skillicons.dev)
 
 ---
 
