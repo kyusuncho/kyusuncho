@@ -86,7 +86,7 @@ with 3D Gaussian Splatting, then evaluating robot navigation and manipulation in
 
 **Mobile**
 
-[![My Skills](https://skillicons.dev/icons?i=kotlin,androidstudio&theme=dark)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=flutter,kotlin&theme=dark)](https://skillicons.dev)
 
 ---
 
